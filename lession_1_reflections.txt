@@ -1,0 +1,21 @@
+Use FC command to compare files 
+
+Its good to have all version to compare and roll back to.
+
+Commits are new versions of code. Snapshot of every file in repository at time of commit.
+
+Good to be able to commit versions when it makes logical sense but has user error.
+
+can save multiple files in one commit
+
+git log to track commits
+
+git diff to see changes in a commit and the next or last commit.
+
+git clone and html to clone repository and all commits.
+
+can use git checkout and version number to revert to an older version of the code.
+
+git init initialises a new repo with 0 commits
+
+git status to say whats going on
