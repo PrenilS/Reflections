@@ -1,1 +1,2 @@
 
+You would use a remote repository when you are working from different laptops or more than one person is working on your project.
