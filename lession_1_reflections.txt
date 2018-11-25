@@ -1,12 +1,6 @@
 Use FC command to compare files 
 
-Its good to have all version to compare and roll back to.
-
 Commits are new versions of code. Snapshot of every file in repository at time of commit.
-
-Good to be able to commit versions when it makes logical sense but has user error.
-
-can save multiple files in one commit
 
 git log to track commits
 
@@ -19,3 +13,19 @@ can use git checkout and version number to revert to an older version of the cod
 git init initialises a new repo with 0 commits
 
 git status to say whats going on
+
+git diff on its own will compare working directory to what is in the staging area. Git diff with 2 arguments compares those commits to each other. git diff --staged will compare the last commit to the staging area.
+
+git reset --hard removes all changes in working directory and staging area.
+
+git branch to make a new branch. To make changes to a specific branch, it has to be first checked out.
+git checkout -b [nee branch name] makes new branch and checks it out
+
+git log --graph -- master (other branch) show picture of branching
+
+git show [commit key] will show changes from a commit to its parent.
+
+git merge branch1 branch2
+git merge --abort to stop trying to merge
+
+if conflict then open file with conflict and it will show you if you search for <<<<<<<<<. Resolve. Save. Add to staging and commit.
