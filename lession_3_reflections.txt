@@ -1,2 +1,4 @@
 
-git remote add [url of github] will create a remote to push from active repository to github.
+git remote add origin [url of github] will create a remote to push from active repository to github.
+
+git push origin master to push to github.
